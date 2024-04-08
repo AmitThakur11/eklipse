@@ -12,6 +12,8 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router} />
+      <h1>Minis</h1>
+      <a href="minis://abc?ab=100">Open</a>
     </div>
   );
 }
