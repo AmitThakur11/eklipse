@@ -4,7 +4,7 @@ import AppNative from "./AppNative";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/minis",
+      path: "minis",
       element: <AppNative />,
       errorElement: <></>,
     },
